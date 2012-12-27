@@ -1,0 +1,341 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR www.itthinx.com
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: wunderslider-gallery 1.1.1\n"
+        "Report-Msgid-Bugs-To: http://www.itthinx.com/wunderslider/\n"
+        "POT-Creation-Date: 2012-07-17 17:29+0200\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:38
+msgid   "<a href=\"http://wunderslider.com/wordpress/\">WunderSlider "
+        "WordPress Demo</a>"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:39
+msgid   "<a href=\"http://www.itthinx.com/wunderslider/\">WunderSlider Page</"
+        "a>"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:37
+msgid   "<a href=\"http://www.wunderslider.com/\">WunderSlider Demo</a>"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:33
+msgid   "<a href=\"http://www.wunderslider.com/\">WunderSlider</a> uses a set "
+        "of default options when no specific settings are used. Here you can "
+        "determine what settings should be used by default instead."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/class-wsg-admin-options.php:73
+msgid   "Access denied."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:94
+msgid   "Allow WunderSlider to send usage data?"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:298
+msgid   "Animate"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:125
+msgid   "Appearance"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:63
+#: wunderslider-gallery/lib/admin/admin-options-form.php:308
+msgid   "Apply"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:106
+msgid   "Apply by default."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:271
+msgid   "Auto"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:204
+msgid   "Controls"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:228
+msgid   "Cursor over slideshow pauses"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:25
+msgid   "Default Settings"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:103
+msgid   "Default behaviour"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:185
+msgid   "Dimensions"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:162
+msgid   "Display mode"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:288
+msgid   "Duration"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:288
+#: wunderslider-gallery/lib/admin/admin-options-form.php:289
+msgid   "Duration of the transition effect in ms."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:240
+msgid   "Effect"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:70
+msgid   "Enable defaults"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:223
+msgid   "Enable flicking"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:74
+msgid   "Enable these settings by default?"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:175
+msgid   "Example: <code>[gallery container_width=\"80%\" height=\"360px\"]</"
+        "code> ."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:293
+msgid   "FPS"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:171
+msgid   "Fixed"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:35
+msgid   "For more information and examples please refer to the following "
+        "resources:"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:293
+#: wunderslider-gallery/lib/admin/admin-options-form.php:294
+msgid   "Frames per second, animation framerate."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:165
+msgid   "Fullscreen"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:193
+msgid   "Height"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:256
+msgid   "Horizontal blocks"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:283
+#: wunderslider-gallery/lib/admin/admin-options-form.php:284
+msgid   "How long to switch to the next image in ms."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:76
+msgid   "IMPORTANT : The followig options are only applied when this option "
+        "is enabled."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:223
+msgid   "If flicking is enabled, images are not linked - captions can still "
+        "be linked"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:108
+msgid   "If this option is disabled, WunderSlider will be applied only to "
+        "those [gallery] shortcodes that explicitly add the "
+        "<code>wunderslider=\"true\"</code> attribute."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:107
+msgid   "If this option is enabled, WunderSlider will be applied to all "
+        "[gallery] shortcodes unless the <code>wunderslider=\"false\"</code> "
+        "attribute is added."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:96
+msgid   "If this option is enabled, WunderSlider will send usage data which "
+        "consists of indicating the URL of the site it is used on. This "
+        "allows to better assess the amount of sites it is used on."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:89
+msgid   "If this option is enabled, the small WunderSlider logo will be shown "
+        "on those pages where it is used on. This helps to spread the word "
+        "about WunderSlider, to continue its development and add new "
+        "improvements."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:174
+msgid   "If you choose <strong>proportional</strong> you must provide the "
+        "container width and height explicitly along with the <code>[gallery]"
+        "</code> shortcode."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:31
+msgid   "If you only want to apply WunderSlider Gallery to a few galleries, "
+        "you can disable the <em>Apply by default</em> option."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:29
+msgid   "If you want to maintain the standard way of how a specific gallery "
+        "is rendered, add the <code>wunderslider</code> attribute and set it "
+        "to <code>false</code> : <code>[gallery wunderslider=\"false\"]</"
+        "code>."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:298
+msgid   "Length of block animations in ms."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:299
+msgid   "Length of the animation in ms."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:256
+#: wunderslider-gallery/lib/admin/admin-options-form.php:257
+msgid   "Number of horizontal zones"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:269
+#: wunderslider-gallery/lib/admin/admin-options-form.php:270
+msgid   "Number of vertical zones, &quot;Auto&quot; adjusts for square blocks."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:143
+msgid   "Overlay"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:156
+msgid   "Overlay opacity"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:283
+msgid   "Period"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:50
+msgid   "Please visit <a href=\"http://www.wunderslider.com/\">WunderSlider</"
+        "a> to obtain a copy, then install and activate the WunderSlider "
+        "WordPress plugin."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:168
+msgid   "Proportional"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:173
+msgid   "Proportional display mode"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:258
+#: wunderslider-gallery/lib/admin/admin-options-form.php:272
+msgid   "Random"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:115
+msgid   "Randomize"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:118
+msgid   "Randomize the order of appearance."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:319
+#: wunderslider-gallery/lib/admin/admin-options-form.php:328
+msgid   "Reset"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/class-wsg-admin-options.php:97
+msgid   "Settings"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:208
+msgid   "Show caption"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:218
+msgid   "Show next/previous buttons"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:213
+msgid   "Show slide selector buttons"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:87
+msgid   "Show the WunderSlider logo?"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:127
+msgid   "Skin"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:83
+msgid   "Spread the word and usage data"
+msgstr  ""
+
+#: wunderslider-gallery/lib/core/class-wunderslider-gallery.php:68
+msgid   "The <a href=\"http://www.wunderslider.com/\">WunderSlider</a> plugin "
+        "is missing."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:27
+msgid   "The <em>WunderSlider Gallery</em> plugin turns galleries that are "
+        "embedded with the standard WordPress <code>[gallery]</code> "
+        "shortcode into responsive WunderSlider slideshows."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:47
+msgid   "The WunderSlider plugin has not been found. You need to install or "
+        "activate it."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:320
+msgid   "The options will be set to their default values."
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:237
+msgid   "Transitions"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:269
+msgid   "Vertical blocks"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:188
+msgid   "Width"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/class-wsg-admin-options.php:57
+#: wunderslider-gallery/lib/admin/class-wsg-admin-options.php:58
+#: wunderslider-gallery/lib/admin/class-wsg-admin-options.php:78
+msgid   "WunderSlider Gallery"
+msgstr  ""
+
+#: wunderslider-gallery/lib/admin/admin-options-form.php:34
+msgid   "You can override these settings by passing WunderSlider shortcode "
+        "attributes to the <code>[gallery]</code> shortcode."
+msgstr  ""

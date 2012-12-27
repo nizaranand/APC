@@ -1,0 +1,28 @@
+<?php
+
+//
+// Extract Settings 
+//
+define("SOURCE","GGAR_Property_RE");
+define("TARGET","GGAR_Property_RE");
+define("REFRESH",true);
+define("TRACE",false);
+define("BATCH_SIZE","20");
+define("MAX_IMAGE_COUNT","10");
+define("COLUMN_LIST","");
+define("WORKING_FILE_PATH","");
+define("CACHE_SIZE","");
+define("LIMIT","0");
+define("MLS_ONLY",false);
+define("USER","");
+define("CLASS_NAME_STYLE","");
+define("STATUS_VARIABLE","");
+define("STATUS_VARIABLE_VALUE","");
+
+$METACOLUMN_MAP=array();
+
+$MAP=array("TARGET"=> array("0"=>"C_L_HotSheetDate","1"=>"C_L_InputDate","2"=>"C_L_Address","3"=>"C_L_Address2","4"=>"C_L_AddressDirection","5"=>"C_L_AddressNumber","6"=>"C_L_AddressStreet","7"=>"C_L_ListAgent2","8"=>"C_L_ListAgent1","9"=>"C_L_ListOffice1","10"=>"C_L_AskingPrice","11"=>"C_L_ListingID","12"=>"C_L_City","13"=>"C_L_ClosingDate","14"=>"C_L_PriceDate","15"=>"C_L_ContractDate","16"=>"C_LM_Char10_3","17"=>"C_L_LastDocUpdate","18"=>"C_L_Status","19"=>"C_L_StatusCatID","20"=>"C_LM_Char10_4","21"=>"C_L_UpdateDate","22"=>"C_L_Zip"),"SOURCE"=> array("0"=>"L_HotSheetDate","1"=>"L_InputDate","2"=>"L_Address","3"=>"L_Address2","4"=>"L_AddressDirection","5"=>"L_AddressNumber","6"=>"L_AddressStreet","7"=>"L_ListAgent2","8"=>"L_ListAgent1","9"=>"L_ListOffice1","10"=>"L_AskingPrice","11"=>"L_ListingID","12"=>"L_City","13"=>"L_ClosingDate","14"=>"L_PriceDate","15"=>"L_ContractDate","16"=>"LM_Char10_3","17"=>"L_LastDocUpdate","18"=>"L_Status","19"=>"L_StatusCatID","20"=>"LM_Char10_4","21"=>"L_UpdateDate","22"=>"L_Zip"));
+
+$IMAGE_MAP=array("TARGET"=> array("0"=>"C_L_ListingID","1"=>"C_INDEX","2"=>"C_URL","3"=>"C_PATH"),"SOURCE"=> array("0"=>"ID","1"=>"INDEX","2"=>"URL","3"=>"PATH"));
+
+?>

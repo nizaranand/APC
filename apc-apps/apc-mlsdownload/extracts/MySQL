@@ -1,0 +1,28 @@
+<?php
+
+//
+// Extract Settings 
+//
+define("SOURCE","Test_MLS");
+define("TARGET","MySQL");
+define("REFRESH",true);
+define("TRACE",false);
+define("BATCH_SIZE","20");
+define("MAX_IMAGE_COUNT","10");
+define("COLUMN_LIST","");
+define("WORKING_FILE_PATH","");
+define("CACHE_SIZE","");
+define("LIMIT","0");
+define("MLS_ONLY",false);
+define("USER","");
+define("CLASS_NAME_STYLE","");
+define("STATUS_VARIABLE","");
+define("STATUS_VARIABLE_VALUE","");
+
+$METACOLUMN_MAP=array();
+
+$MAP=array("TARGET"=> array("0"=>"C_AgentID","1"=>"C_County","2"=>"C_Board","3"=>"C_Rooms","4"=>"C_Baths","5"=>"C_Garage","6"=>"C_ModificationTimestamp","7"=>"C_Unit","8"=>"C_Bedrooms","9"=>"C_ListDate","10"=>"C_SqFt","11"=>"C_YearBuilt","12"=>"C_City","13"=>"C_ListingID","14"=>"C_State","15"=>"C_ZipCode","16"=>"C_CloseDate","17"=>"C_ListPrice","18"=>"C_StreetDirection","19"=>"C_ClosePrice","20"=>"C_Status","21"=>"C_StreetName","22"=>"C_ContractDate","23"=>"C_LivingArea","24"=>"C_StreetNumber"),"SOURCE"=> array("0"=>"AgentID","1"=>"County","2"=>"Board","3"=>"Rooms","4"=>"Baths","5"=>"Garage","6"=>"ModificationTimestamp","7"=>"Unit","8"=>"Bedrooms","9"=>"ListDate","10"=>"SqFt","11"=>"YearBuilt","12"=>"City","13"=>"ListingID","14"=>"State","15"=>"ZipCode","16"=>"CloseDate","17"=>"ListPrice","18"=>"StreetDirection","19"=>"ClosePrice","20"=>"Status","21"=>"StreetName","22"=>"ContractDate","23"=>"LivingArea","24"=>"StreetNumber"));
+
+$IMAGE_MAP=array("TARGET"=> array("0"=>"C_ListingID","1"=>"C_INDEX","2"=>"C_URL","3"=>"C_PATH"),"SOURCE"=> array("0"=>"ID","1"=>"INDEX","2"=>"URL","3"=>"PATH"));
+
+?>

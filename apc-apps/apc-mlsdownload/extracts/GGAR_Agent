@@ -1,0 +1,28 @@
+<?php
+
+//
+// Extract Settings 
+//
+define("SOURCE","GGAR_Agent");
+define("TARGET","GGAR_Agent");
+define("REFRESH",true);
+define("TRACE",false);
+define("BATCH_SIZE","20");
+define("MAX_IMAGE_COUNT","0");
+define("COLUMN_LIST","");
+define("WORKING_FILE_PATH","");
+define("CACHE_SIZE","");
+define("LIMIT","0");
+define("MLS_ONLY",false);
+define("USER","");
+define("CLASS_NAME_STYLE","");
+define("STATUS_VARIABLE","");
+define("STATUS_VARIABLE_VALUE","");
+
+$METACOLUMN_MAP=array();
+
+$MAP=array("TARGET"=> array("0"=>"C_AOManOfcID","1"=>"C_Email","2"=>"C_FirstName","3"=>"C_AgentID","4"=>"C_LastName","5"=>"C_Active","6"=>"C_Phone2Area","7"=>"C_DtUpdated","8"=>"C_Phone2Desc","9"=>"C_Phone2Ext","10"=>"C_Phone2Nbr"),"SOURCE"=> array("0"=>"AO_BranchOfOrgID","1"=>"U_Email","2"=>"U_UserFirstName","3"=>"U_AgentID","4"=>"U_UserLastName","5"=>"U_user_is_active","6"=>"U_PhoneNumber2Area","7"=>"U_UpdateDate","8"=>"U_PhoneNumber2Desc","9"=>"U_PhoneNumber2Ext","10"=>"U_PhoneNumber2"));
+
+$IMAGE_MAP=array();
+
+?>

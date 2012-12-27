@@ -1,0 +1,6 @@
+"AgentID","County","Board","Rooms","Baths","Garage","ModificationTimestamp","Unit","Bedrooms","ListDate","SqFt","YearBuilt","City","ListingID","State","ZipCode","CloseDate","ListPrice","StreetDirection","ClosePrice","Status","StreetName","ContractDate","LivingArea","StreetNumber"
+"1","Lake","TestMLS","12","3","3","2008-12-31T08:00:00Z","","4","2008-05-30T07:00:00Z","4000","1985","Buffalo Grove","1","IL","60089","","380000","","","Active","Fox Hill","","2000","83"
+"1","Cook","FakeMLS","8","1","1","2009-02-01T08:00:00Z","22B","3","2009-03-23T07:00:00Z","900","1975","Chicago","2","IL","60613","","250000","W","","Active","Armitage Ave","","900","1250"
+"1","Cook","FakeMLS","5","1","","2008-12-31T08:00:00Z","2N","1","2009-02-22T08:00:00Z","1000","1915","Chicago","5","IL","60615","","150000","S","","Active","Harper Ave.","","1000","5429"
+"1","Cook","FakeMLS","9","3","2","2008-12-31T08:00:00Z","6","4","2009-01-22T08:00:00Z","1100","1978","Chicago","3","IL","60611","2009-04-15T07:00:00Z","250000","N","233000","Closed","Michigan Ave.","","1100","625"
+"1","Cook","TestMLS","14","3","3","2009-02-01T09:00:00Z","","5","2008-10-03T07:00:00Z","3000","1922","Evenston","4","IL","60533","","425000","","","Active","Main St.","","2500","120"

@@ -1,0 +1,22 @@
+<VIELE_BATCH>
+	<EXTRACT>
+GGAR_Property
+	</EXTRACT>
+<!--
+	<QUIET/>
+-->
+	<UPDATE_BCF/>
+<!--
+	<RUN_SYNC/>
+-->
+	<UPDATE_ONLY/>
+	<LIMIT>
+NONE
+	</LIMIT>
+	<QUERY_VALUE name="L_StatusCatID">
+ANY
+	</QUERY_VALUE>
+	<LAST_RUN>
+2012-12-19T03:45:01
+	</LAST_RUN>
+</VIELE_BATCH>

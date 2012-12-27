@@ -1,0 +1,84 @@
+<?php
+
+//
+// Identification Settings 
+//
+define("APPLICATION","VieleRETS");
+define("VERSION","1.1.8");
+
+//
+// Connection Settings 
+//
+define("DESCRIPTION","A RETS Source");
+define("RETS_SERVER_ACCOUNT","appointmentctr");
+define("RETS_SERVER_PASSWORD","retsAppo100061");
+define("RETS_SERVER_URL","http://greenville.rets.fnismls.com/rets/fnisrets.aspx/GREENVILLE/login?rets-version=rets/1.5");
+define("RETS_CLIENT_PASSWORD","");
+define("RETS_DEFAULT_PORT","80");
+define("KEEP_ALIVE_SERVER",true);
+define("ENCODE_REQUESTS",true);
+define("POST_REQUESTS",true);
+define("SERVER_TIME_DIFFERENCE",0);
+define("NULL_QUERY_OPTION","UNIQUE_IDENTIFIER");
+
+//
+// detected settings 
+//
+define("DETECTED_SERVER_NAME","Microsoft-IIS/7.5");
+define("DETECTED_DEFAULT_RETS_VERSION","1.7.2");
+define("DETECTED_MAXIMUM_RETS_VERSION","1.7.2");
+define("DETECTED_STANDARD_NAMES",false);
+define("PAGINATION",true);
+define("SIMULTANEOUS_LOGINS",false);
+
+//
+// Display Settings 
+//
+define("DISPLAY_PERFORMANCE",false);
+define("DISPLAY_RETS",false);
+define("DISPLAY_PROVIDER_NOTICE",false);
+define("DISPLAY_ACCOUNT",false);
+
+//
+// Text Query Settings 
+//
+define("SELECTION_RESOURCE","ActiveAgent");
+define("SELECTION_CLASS","ActiveAgent");
+define("UNIQUE_KEY","U_AgentID");
+define("COMPACT_DECODED_FORMAT",true);
+define("OWNERSHIP_VARIABLE","");
+define("DATE_VARIABLE","U_UpdateDate");
+define("DETAIL_ITEMS","Garage,County,StreetNumber,ListingID,CloseDate,City,AgentID,Beds,TotalRooms,LivingArea,YearBuilt,ListingStatus,ListDate,PostalCode,ContractDate,ClosePrice,UnitNumber,StreetName,OfficeID,StateOrProvince,Board,Baths,ListPrice,ModificationTimestamp,StreetDirPrefix,Type");
+define("SUMMARY_ITEMS","AO_BranchOfOrgID,U_Email,U_UserFirstName,U_AgentID,U_UserLastName,U_user_is_active,U_PhoneNumber2Area,U_UpdateDate,U_PhoneNumber2Desc,U_PhoneNumber2Ext,U_PhoneNumber2");
+define("GALLERY_ITEMS","Garage,County,StreetNumber,ListingID,CloseDate,City,AgentID,Beds,TotalRooms,LivingArea,YearBuilt,ListingStatus,ListDate,PostalCode,ContractDate,ClosePrice,UnitNumber,StreetName,OfficeID,StateOrProvince,Board,Baths,ListPrice,ModificationTimestamp,StreetDirPrefix,Type");
+define("QUERY_ITEMS","U_AgentID,U_UpdateDate");
+define("STANDARD_SERVER_RESPONSE",true);
+define("RESTRICTED_INDICATOR","");
+define("OFFSET_ADJUSTMENT","0");
+define("MEDIA_BYPASS",false);
+
+//
+// Media Query Settings 
+//
+define("MEDIA_TYPE","");
+define("MEDIA_MULTIPART",false);
+define("MEDIA_LOCATION",false);
+define("MEDIA_LIST_ZERO_START",false);
+define("MEDIA_VALIDATE",false);
+define("MEDIA_PROXY","./media_proxy.php");
+define("NON_STANDARD_MEDIA",false);
+define("NON_STANDARD_MEDIA_RESOURCE","");
+define("NON_STANDARD_MEDIA_CLASS","");
+define("NON_STANDARD_MEDIA_TYPE","");
+
+$ListPrice_FORM=array("Less than $300,0000"=>"300000-","Between $300,000 and $400,000"=>"300000-400000","Greater than $400,000"=>"400000+");
+define("ALL_TYPES","Int,Int,Date,Character,Small,Small,Date,Character,Character,Character,Character,Character,Character,Int,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Date,Character,Character,Character,Date,Character,Date,Character,Date,Character,Character,Date,Character,Date,Character,Small,Decimal,Small,Small,Decimal,Decimal,Date,Character,Decimal,Character,Date,Character,DateTime,Int,DateTime,Character,Character,Character,Character,Character,Int,Small,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Character,Int,Small");
+
+define("ALL_FIELDS","U_AgentID,U_HiddenOrgID,U_DateAssignedToOrg,U_LoginName,U_SecurityLevel,U_HiddenUsCID,U_AgentTypeChangeDate,U_FreeFormDesig,U_UserSalutation,U_UserFirstName,U_UserLastName,U_UserMI,U_AddressNumber,U_AddressSearchNumber,U_AddressDirection,U_AddressStreet,U_Address2,U_City,U_State,U_Zip,U_Zip6,U_MailAddressNumber,U_MailAddressDirection,U_MailAddressStreet,U_MailAddress2,U_MailCity,U_MailState,U_MailZip,U_MailZip6,U_PhoneNumber1Desc,U_PhoneNumber1Area,U_PhoneNumber1,U_PhoneNumber1Ext,U_PhoneNumber2Desc,U_PhoneNumber2Area,U_PhoneNumber2,U_PhoneNumber2Ext,U_PhoneNumber3Desc,U_PhoneNumber3Area,U_PhoneNumber3,U_PhoneNumber3Ext,U_PhoneNumber4Desc,U_PhoneNumber4Area,U_PhoneNumber4,U_PhoneNumber4Ext,U_PhoneNumber5Desc,U_PhoneNumber5Area,U_PhoneNumber5,U_PhoneNumber5Ext,U_Email,U_WebPage,U_StateAgentIsMemberOf,U_StateAgentIsMemberOfDate,U_DuesPaidToBoard,U_BoardDuesPaidThrough,U_Status,U_StatusDate,U_Indoctrination,U_IndoctrinationDate,U_AgentLicenseID,U_AgentLicenseDate,U_SpouseFirstName,U_PreferredMailCode,U_BirthDate,U_LockBoxKeyNumber,U_DateKeyAssigned,U_PreviousKeyNumber,U_NumberOfKeysAssigned,U_LockBoxKeyDeposit,U_ActiveBookCount,U_SoldBookCount,U_CorpPACContribYTD,U_PersonalPACContrib,U_PACLastContribDate,U_PACLastContribCheckNum,U_PreviousYearPACContrib,U_Dist,U_LastTrig,U_Photos,U_UpdateDate,U_UpdateAgent,U_InputDate,U_MultyLogin,U_Photographer,U_user_is_active,U_UserCode,U_users_nrds_id,AO_BranchOfOrgID,AO_HiddenOtyID,AO_ShortName,AO_OrganizationName,AO_OrgAddressNumber,AO_OrgAddressDirection,AO_OrgAddressStreet,AO_OrgAddress2,AO_OrgCity,AO_OrgState,AO_OrgZip,AO_OrgZip6,AO_PhoneNumber1Desc,AO_PhoneNumber1Area,AO_PhoneNumber1,AO_PhoneNumber1Ext,AO_EMail,AO_WebPage,AO_board_id,UP_AgentPhone");
+
+define("ALL_INTERPRETATIONS","NULL,NULL,NULL,NULL,NULL,Lookup,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Lookup,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Lookup,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Lookup,NULL,Lookup,NULL,Lookup,NULL,Lookup,NULL,NULL,NULL,NULL,Lookup,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Lookup,NULL,Lookup,NULL,NULL,NULL,Lookup,NULL,Lookup,NULL,NULL,NULL,Lookup,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Lookup,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL");
+
+define("ALL_REQUIREDS"," , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ");
+
+$L_StatusCatID_FORM=array("Active"=>"|1","Sold"=>"|2","Pending"=>"|3","Expired"=>"|4","Withdrawn"=>"|5","Rented"=>"|6");
+?>

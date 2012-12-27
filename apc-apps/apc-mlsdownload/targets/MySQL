@@ -1,0 +1,85 @@
+<?php
+
+//
+// Target Settings 
+//
+define("TYPE","RDB");
+define("DESCRIPTION","MySQL");
+
+//
+// text information
+//
+define("FILE_NAME","");
+define("DATA_DOWNLOAD_PATH","/var/www/appointmentcenter/viele/vieleRETS-1.1");
+
+//
+// image information
+//
+define("INCLUDE_IMAGES",true);
+define("IMAGE_FILE_NAME","download_images.csv");
+define("IMAGE_REFERENCE_ONLY",false);
+define("IMAGE_ENCODED_URL",false);
+define("SERVER_IMAGES",true);
+define("IMAGE_URL","http://nowhere.com");
+define("IMAGE_DOWNLOAD_PATH","/var/www/appointmentcenter/viele/vieleRETS-1.1/image");
+
+//
+// GoogleBase
+//
+define("FORMAT","RSS_2.0");
+define("IMAGE_FIELD","");
+
+//
+// OpenRealty
+//
+define("OPEN_REALTY_INSTALL_PATH","/");
+define("USERID_FIELD","userdb_id");
+define("USERID_NAME","userdb_user_name");
+define("METADATA_FIELD","listingsformelements_field_name");
+define("METADATA_TYPE","listingsformelements_field_type");
+define("METADATA_REQUIRED","listingsformelements_required");
+define("USER_FIELD","userdbelements_field_name");
+define("USER_VALUE","userdbelements_field_value");
+define("RETS_USER_ELEMENT","RETS_AGENT_ID");
+define("USER_TABLE","");
+define("CLASS_LISTING_TABLE","");
+define("CLASS_TABLE","");
+define("USER_ELEMENT_TABLE","");
+define("METADATA_TABLE","");
+define("COLUMN_LIST","C_AgentID,C_County,C_Board,C_Rooms,C_Baths,C_Garage,C_ModificationTimestamp,C_Unit,C_Bedrooms,C_ListDate,C_SqFt,C_YearBuilt,C_City,C_ListingID,C_State,C_ZipCode,C_CloseDate,C_ListPrice,C_StreetDirection,C_ClosePrice,C_Status,C_StreetName,C_ContractDate,C_LivingArea,C_StreetNumber");
+define("TYPE_LIST","");
+define("REQUIRED_LIST","");
+define("INDEX_TABLE","");
+define("DAYS_UNTIL_EXPIRATION","");
+define("IMAGE_UPLOAD_PATH","");
+define("THUMBNAILS",false);
+define("THUMBNAIL_PROGRAM","");
+define("GD_VERSION_2",false);
+define("PATH_TO_IMAGEMAGICK","");
+define("THUMBNAIL_WIDTH","");
+define("THUMBNAIL_QUALITY","");
+define("LISTING_DESCRIPTION_TEMPLATE","Listing {mls}");
+
+//
+// RDB 
+//
+define("BRAND","mysql");
+define("SERVER","localhost");
+define("ACCOUNT","root");
+define("PASSWORD","Suzi0130");
+define("DATABASE","viele");
+define("DATA_TABLE","data");
+define("DATA_TABLE_KEY","C_ListingID");
+define("IMAGE_TABLE","images");
+define("IMAGE_TABLE_KEY","C_ListingID");
+define("AUTO_CREATE",true);
+define("IMAGE_COLUMN_LIST","C_ListingID,C_INDEX,C_URL,C_PATH");
+
+//
+// XML 
+//
+define("CONTAINER_NAME","");
+
+define("CACHE_PATH","../../cache");
+
+?>

@@ -1,0 +1,77 @@
+/**
+ * admin.css
+ * 
+ * Copyright (c) 2012 "kento" Karim Rahimpur www.itthinx.com
+ *
+ * This code is released under the GNU General Public License.
+ * See COPYRIGHT.txt and LICENSE.txt.
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * This header and all notices must be kept intact.
+ *
+ * @author Karim Rahimpur
+ * @package wunderslider-gallery
+ * @since wunderslider-gallery 1.0.0
+ */
+.settings {
+	padding: 1em 0;
+}
+.settings label {
+	line-height: 24px;
+	vertical-align: middle;
+	display: inline-block;
+	min-width: 120px;
+}
+
+.settings input,
+.settings select {
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.settings #animateInterval,
+.settings #duration,
+.settings #fps,
+.settings #overlayOpacity,
+.settings #period {
+	width: 5em;
+	text-align: right;
+}
+
+.settings #height,
+.settings #width {
+	width: 5em;
+	text-align: right;
+}
+.settings fieldset {
+	margin-bottom: 24px;
+}
+.settings fieldset legend {
+	font-size: 1.6em;
+	margin-bottom: 8px;
+}
+.settings-reset {
+	padding: 1em 0;
+}
+.wsg-options {
+	padding: 0 1em;
+	background-image: url(../images/wunderslider-gallery-160x100.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.wsg-options .intro {
+	margin-right: 160px;
+}
+.wsg-options div.separator {
+	width: 90%;
+	height: 0px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #ccc;
+}
+.settings .nextgen ul {
+	padding: 0 1em;
+}
