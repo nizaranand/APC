@@ -25,7 +25,7 @@ define('DB_USER', 'apcuser');
 define('DB_PASSWORD', 'Suzi0130');
 
 /** MySQL hostname */
-define('DB_HOST', 'apcdb.cyijjqyhmp43.us-east-1.rds.amazonaws.com');
+define('DB_HOST', 'aa1sv6eb93g1k9.cyijjqyhmp43.us-east-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
